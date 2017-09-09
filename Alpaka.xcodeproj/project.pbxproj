@@ -1,0 +1,753 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00F412E3EF0BE175A5070CFF /* Pods_AlpakaUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00F8A5DE574C49314F2C1AD3 /* Pods_AlpakaUITests.framework */; };
+		61199BD61F63DFA100A79C89 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61199BD51F63DFA100A79C89 /* AppDelegate.swift */; };
+		61199BD81F63DFA100A79C89 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61199BD71F63DFA100A79C89 /* ViewController.swift */; };
+		61199BDB1F63DFA100A79C89 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 61199BD91F63DFA100A79C89 /* Main.storyboard */; };
+		61199BDD1F63DFA100A79C89 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 61199BDC1F63DFA100A79C89 /* Assets.xcassets */; };
+		61199BE01F63DFA100A79C89 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 61199BDE1F63DFA100A79C89 /* LaunchScreen.storyboard */; };
+		61199BEB1F63DFA100A79C89 /* AlpakaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61199BEA1F63DFA100A79C89 /* AlpakaTests.swift */; };
+		61199BF61F63DFA100A79C89 /* AlpakaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61199BF51F63DFA100A79C89 /* AlpakaUITests.swift */; };
+		61DCF0621F63FB19004A1CAD /* tessdata in Resources */ = {isa = PBXBuildFile; fileRef = 61DCF0611F63FB19004A1CAD /* tessdata */; };
+		E7B690936A1CD2566228D1E6 /* Pods_AlpakaTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA1290EE239B7A6477998429 /* Pods_AlpakaTests.framework */; };
+		FC1517D31FF15DF897774F14 /* Pods_Alpaka.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF80A95C53E77203BE2B21F9 /* Pods_Alpaka.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		61199BE71F63DFA100A79C89 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 61199BCA1F63DFA100A79C89 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 61199BD11F63DFA100A79C89;
+			remoteInfo = Alpaka;
+		};
+		61199BF21F63DFA100A79C89 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 61199BCA1F63DFA100A79C89 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 61199BD11F63DFA100A79C89;
+			remoteInfo = Alpaka;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00F8A5DE574C49314F2C1AD3 /* Pods_AlpakaUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AlpakaUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0E1DCBBE912476AA8BE488B6 /* Pods-Alpaka.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Alpaka.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Alpaka/Pods-Alpaka.debug.xcconfig"; sourceTree = "<group>"; };
+		4F0F09B43BEF13B67AC3F681 /* Pods-AlpakaTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AlpakaTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AlpakaTests/Pods-AlpakaTests.release.xcconfig"; sourceTree = "<group>"; };
+		5B5CF929400A9C34D53A7E34 /* Pods-Alpaka.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Alpaka.release.xcconfig"; path = "Pods/Target Support Files/Pods-Alpaka/Pods-Alpaka.release.xcconfig"; sourceTree = "<group>"; };
+		61199BD21F63DFA100A79C89 /* Alpaka.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Alpaka.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		61199BD51F63DFA100A79C89 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		61199BD71F63DFA100A79C89 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		61199BDA1F63DFA100A79C89 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		61199BDC1F63DFA100A79C89 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		61199BDF1F63DFA100A79C89 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		61199BE11F63DFA100A79C89 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		61199BE61F63DFA100A79C89 /* AlpakaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AlpakaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		61199BEA1F63DFA100A79C89 /* AlpakaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlpakaTests.swift; sourceTree = "<group>"; };
+		61199BEC1F63DFA100A79C89 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		61199BF11F63DFA100A79C89 /* AlpakaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AlpakaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		61199BF51F63DFA100A79C89 /* AlpakaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlpakaUITests.swift; sourceTree = "<group>"; };
+		61199BF71F63DFA100A79C89 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		61DCF0611F63FB19004A1CAD /* tessdata */ = {isa = PBXFileReference; lastKnownFileType = folder; path = tessdata; sourceTree = "<group>"; };
+		832D658DFA6A9530A1D783E8 /* Pods-AlpakaUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AlpakaUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AlpakaUITests/Pods-AlpakaUITests.release.xcconfig"; sourceTree = "<group>"; };
+		A8DDA6BE629B7830B210AE0F /* Pods-AlpakaTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AlpakaTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AlpakaTests/Pods-AlpakaTests.debug.xcconfig"; sourceTree = "<group>"; };
+		EA1290EE239B7A6477998429 /* Pods_AlpakaTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AlpakaTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF80A95C53E77203BE2B21F9 /* Pods_Alpaka.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Alpaka.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F85A7FEE156AD2160EDD7A19 /* Pods-AlpakaUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AlpakaUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AlpakaUITests/Pods-AlpakaUITests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		61199BCF1F63DFA100A79C89 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC1517D31FF15DF897774F14 /* Pods_Alpaka.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61199BE31F63DFA100A79C89 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7B690936A1CD2566228D1E6 /* Pods_AlpakaTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61199BEE1F63DFA100A79C89 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00F412E3EF0BE175A5070CFF /* Pods_AlpakaUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		61199BC91F63DFA100A79C89 = {
+			isa = PBXGroup;
+			children = (
+				61199BD41F63DFA100A79C89 /* Alpaka */,
+				61199BE91F63DFA100A79C89 /* AlpakaTests */,
+				61199BF41F63DFA100A79C89 /* AlpakaUITests */,
+				61199BD31F63DFA100A79C89 /* Products */,
+				DFB30943E8B69D7997FE7379 /* Pods */,
+				7D026476B7156F6AB41B2220 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		61199BD31F63DFA100A79C89 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				61199BD21F63DFA100A79C89 /* Alpaka.app */,
+				61199BE61F63DFA100A79C89 /* AlpakaTests.xctest */,
+				61199BF11F63DFA100A79C89 /* AlpakaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		61199BD41F63DFA100A79C89 /* Alpaka */ = {
+			isa = PBXGroup;
+			children = (
+				61199BD51F63DFA100A79C89 /* AppDelegate.swift */,
+				61199BD71F63DFA100A79C89 /* ViewController.swift */,
+				61DCF0611F63FB19004A1CAD /* tessdata */,
+				61199BD91F63DFA100A79C89 /* Main.storyboard */,
+				61199BDC1F63DFA100A79C89 /* Assets.xcassets */,
+				61199BDE1F63DFA100A79C89 /* LaunchScreen.storyboard */,
+				61199BE11F63DFA100A79C89 /* Info.plist */,
+			);
+			path = Alpaka;
+			sourceTree = "<group>";
+		};
+		61199BE91F63DFA100A79C89 /* AlpakaTests */ = {
+			isa = PBXGroup;
+			children = (
+				61199BEA1F63DFA100A79C89 /* AlpakaTests.swift */,
+				61199BEC1F63DFA100A79C89 /* Info.plist */,
+			);
+			path = AlpakaTests;
+			sourceTree = "<group>";
+		};
+		61199BF41F63DFA100A79C89 /* AlpakaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				61199BF51F63DFA100A79C89 /* AlpakaUITests.swift */,
+				61199BF71F63DFA100A79C89 /* Info.plist */,
+			);
+			path = AlpakaUITests;
+			sourceTree = "<group>";
+		};
+		7D026476B7156F6AB41B2220 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EF80A95C53E77203BE2B21F9 /* Pods_Alpaka.framework */,
+				EA1290EE239B7A6477998429 /* Pods_AlpakaTests.framework */,
+				00F8A5DE574C49314F2C1AD3 /* Pods_AlpakaUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DFB30943E8B69D7997FE7379 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0E1DCBBE912476AA8BE488B6 /* Pods-Alpaka.debug.xcconfig */,
+				5B5CF929400A9C34D53A7E34 /* Pods-Alpaka.release.xcconfig */,
+				A8DDA6BE629B7830B210AE0F /* Pods-AlpakaTests.debug.xcconfig */,
+				4F0F09B43BEF13B67AC3F681 /* Pods-AlpakaTests.release.xcconfig */,
+				F85A7FEE156AD2160EDD7A19 /* Pods-AlpakaUITests.debug.xcconfig */,
+				832D658DFA6A9530A1D783E8 /* Pods-AlpakaUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		61199BD11F63DFA100A79C89 /* Alpaka */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 61199BFA1F63DFA100A79C89 /* Build configuration list for PBXNativeTarget "Alpaka" */;
+			buildPhases = (
+				8185E7208ABACB909B55B277 /* [CP] Check Pods Manifest.lock */,
+				61199BCE1F63DFA100A79C89 /* Sources */,
+				61199BCF1F63DFA100A79C89 /* Frameworks */,
+				61199BD01F63DFA100A79C89 /* Resources */,
+				1033B9A38E8A5C0DF70EE4B2 /* [CP] Embed Pods Frameworks */,
+				973CE5CE8E26F1BADF4FD59C /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Alpaka;
+			productName = Alpaka;
+			productReference = 61199BD21F63DFA100A79C89 /* Alpaka.app */;
+			productType = "com.apple.product-type.application";
+		};
+		61199BE51F63DFA100A79C89 /* AlpakaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 61199BFD1F63DFA100A79C89 /* Build configuration list for PBXNativeTarget "AlpakaTests" */;
+			buildPhases = (
+				D5775DB44F85B63ABE3807C6 /* [CP] Check Pods Manifest.lock */,
+				61199BE21F63DFA100A79C89 /* Sources */,
+				61199BE31F63DFA100A79C89 /* Frameworks */,
+				61199BE41F63DFA100A79C89 /* Resources */,
+				9BEEDC8111E61B84416DD39E /* [CP] Embed Pods Frameworks */,
+				D862C9A3F9B5AC8C17E563EE /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				61199BE81F63DFA100A79C89 /* PBXTargetDependency */,
+			);
+			name = AlpakaTests;
+			productName = AlpakaTests;
+			productReference = 61199BE61F63DFA100A79C89 /* AlpakaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		61199BF01F63DFA100A79C89 /* AlpakaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 61199C001F63DFA100A79C89 /* Build configuration list for PBXNativeTarget "AlpakaUITests" */;
+			buildPhases = (
+				A686E8FBA640461851FA9127 /* [CP] Check Pods Manifest.lock */,
+				61199BED1F63DFA100A79C89 /* Sources */,
+				61199BEE1F63DFA100A79C89 /* Frameworks */,
+				61199BEF1F63DFA100A79C89 /* Resources */,
+				A7C286073D15ED430E48207F /* [CP] Embed Pods Frameworks */,
+				2A6F784F234D98A1DDC862A3 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				61199BF31F63DFA100A79C89 /* PBXTargetDependency */,
+			);
+			name = AlpakaUITests;
+			productName = AlpakaUITests;
+			productReference = 61199BF11F63DFA100A79C89 /* AlpakaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		61199BCA1F63DFA100A79C89 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Felix Schlegel";
+				TargetAttributes = {
+					61199BD11F63DFA100A79C89 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 23G9NMB58U;
+						ProvisioningStyle = Automatic;
+					};
+					61199BE51F63DFA100A79C89 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 23G9NMB58U;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 61199BD11F63DFA100A79C89;
+					};
+					61199BF01F63DFA100A79C89 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 23G9NMB58U;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 61199BD11F63DFA100A79C89;
+					};
+				};
+			};
+			buildConfigurationList = 61199BCD1F63DFA100A79C89 /* Build configuration list for PBXProject "Alpaka" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 61199BC91F63DFA100A79C89;
+			productRefGroup = 61199BD31F63DFA100A79C89 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				61199BD11F63DFA100A79C89 /* Alpaka */,
+				61199BE51F63DFA100A79C89 /* AlpakaTests */,
+				61199BF01F63DFA100A79C89 /* AlpakaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		61199BD01F63DFA100A79C89 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61199BE01F63DFA100A79C89 /* LaunchScreen.storyboard in Resources */,
+				61DCF0621F63FB19004A1CAD /* tessdata in Resources */,
+				61199BDD1F63DFA100A79C89 /* Assets.xcassets in Resources */,
+				61199BDB1F63DFA100A79C89 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61199BE41F63DFA100A79C89 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61199BEF1F63DFA100A79C89 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1033B9A38E8A5C0DF70EE4B2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Alpaka/Pods-Alpaka-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/TesseractOCRiOS/TesseractOCR.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TesseractOCR.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Alpaka/Pods-Alpaka-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2A6F784F234D98A1DDC862A3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AlpakaUITests/Pods-AlpakaUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8185E7208ABACB909B55B277 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Alpaka-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		973CE5CE8E26F1BADF4FD59C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Alpaka/Pods-Alpaka-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9BEEDC8111E61B84416DD39E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AlpakaTests/Pods-AlpakaTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A686E8FBA640461851FA9127 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AlpakaUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A7C286073D15ED430E48207F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AlpakaUITests/Pods-AlpakaUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D5775DB44F85B63ABE3807C6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AlpakaTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D862C9A3F9B5AC8C17E563EE /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AlpakaTests/Pods-AlpakaTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		61199BCE1F63DFA100A79C89 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61199BD81F63DFA100A79C89 /* ViewController.swift in Sources */,
+				61199BD61F63DFA100A79C89 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61199BE21F63DFA100A79C89 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61199BEB1F63DFA100A79C89 /* AlpakaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61199BED1F63DFA100A79C89 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61199BF61F63DFA100A79C89 /* AlpakaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		61199BE81F63DFA100A79C89 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 61199BD11F63DFA100A79C89 /* Alpaka */;
+			targetProxy = 61199BE71F63DFA100A79C89 /* PBXContainerItemProxy */;
+		};
+		61199BF31F63DFA100A79C89 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 61199BD11F63DFA100A79C89 /* Alpaka */;
+			targetProxy = 61199BF21F63DFA100A79C89 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		61199BD91F63DFA100A79C89 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				61199BDA1F63DFA100A79C89 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		61199BDE1F63DFA100A79C89 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				61199BDF1F63DFA100A79C89 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		61199BF81F63DFA100A79C89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		61199BF91F63DFA100A79C89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		61199BFB1F63DFA100A79C89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0E1DCBBE912476AA8BE488B6 /* Pods-Alpaka.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 23G9NMB58U;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = Alpaka/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = de.felixschlegel.Alpaka;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/FelixSchlegel/Desktop/Alpaka/Alpaka-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		61199BFC1F63DFA100A79C89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B5CF929400A9C34D53A7E34 /* Pods-Alpaka.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 23G9NMB58U;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = Alpaka/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = de.felixschlegel.Alpaka;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/FelixSchlegel/Desktop/Alpaka/Alpaka-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		61199BFE1F63DFA100A79C89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A8DDA6BE629B7830B210AE0F /* Pods-AlpakaTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 23G9NMB58U;
+				INFOPLIST_FILE = AlpakaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = de.felixschlegel.AlpakaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Alpaka.app/Alpaka";
+			};
+			name = Debug;
+		};
+		61199BFF1F63DFA100A79C89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4F0F09B43BEF13B67AC3F681 /* Pods-AlpakaTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 23G9NMB58U;
+				INFOPLIST_FILE = AlpakaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = de.felixschlegel.AlpakaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Alpaka.app/Alpaka";
+			};
+			name = Release;
+		};
+		61199C011F63DFA100A79C89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F85A7FEE156AD2160EDD7A19 /* Pods-AlpakaUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 23G9NMB58U;
+				INFOPLIST_FILE = AlpakaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = de.felixschlegel.AlpakaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Alpaka;
+			};
+			name = Debug;
+		};
+		61199C021F63DFA100A79C89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 832D658DFA6A9530A1D783E8 /* Pods-AlpakaUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 23G9NMB58U;
+				INFOPLIST_FILE = AlpakaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = de.felixschlegel.AlpakaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Alpaka;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		61199BCD1F63DFA100A79C89 /* Build configuration list for PBXProject "Alpaka" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				61199BF81F63DFA100A79C89 /* Debug */,
+				61199BF91F63DFA100A79C89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		61199BFA1F63DFA100A79C89 /* Build configuration list for PBXNativeTarget "Alpaka" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				61199BFB1F63DFA100A79C89 /* Debug */,
+				61199BFC1F63DFA100A79C89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		61199BFD1F63DFA100A79C89 /* Build configuration list for PBXNativeTarget "AlpakaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				61199BFE1F63DFA100A79C89 /* Debug */,
+				61199BFF1F63DFA100A79C89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		61199C001F63DFA100A79C89 /* Build configuration list for PBXNativeTarget "AlpakaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				61199C011F63DFA100A79C89 /* Debug */,
+				61199C021F63DFA100A79C89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 61199BCA1F63DFA100A79C89 /* Project object */;
+}
